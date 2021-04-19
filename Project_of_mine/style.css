@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.form-w {
+    background-color: greenyellow;
+    width: 100%;
+}
+
+form {
+    display: grid;
+    grid-row-start: auto;
+}
+
+input, label {
+    margin: 5px;
+    padding: 5px;
+}
+
+#subBtn {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.becomeRed {
+    background-color: lightcoral;
+    font-weight: bold;
+}

@@ -13,7 +13,8 @@ class Weather{
     }
 
     // change city location
-    changeLocation(city){
+    changeLocation(city, country){
         this.city = city;
+        this.country = country;
     };
 };

@@ -12,7 +12,7 @@ class UI{
     }
 
     paint(weather){
-        this.location.textContent = weather.location.name + '\n' + weather.location.region + ',\n' + weather.location.country;
+        this.location.textContent = weather.location.name + '\n' + weather.location.country;
 
         this.desc.textContent = weather.current.weather_descriptions;
         this.string.textContent = weather.current.temperature;
